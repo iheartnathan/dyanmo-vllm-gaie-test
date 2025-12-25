@@ -1,0 +1,15 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: gateway-api-inference-extension-crds
+  namespace: flux-system
+spec:
+  interval: 5m0s
+  url: https://github.com/kubernetes-sigs/gateway-api-inference-extension
+  ref:
+    branch: main
+    commit: f316594a0ed4d78d7aed43f4bf066f410ed89b0f
+  ignore: |
+    /*
+    !/config/
