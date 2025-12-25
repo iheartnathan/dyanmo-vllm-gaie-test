@@ -10,7 +10,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system          
-  path: ./infrastructure/crds/gaie/base
+  path: ./infrastructure/crds/gaie/
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
