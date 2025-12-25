@@ -12,17 +12,17 @@ spec:
     namespace: flux-system
   install:
     crds: Create
-    strategy:
-      name: RemediateOnFailure
-      retryInterval: 5m 
+    # strategy:
+    #   name: RemediateOnFailure
+    #   retryInterval: 5m 
     remediation:
       retries: 3
       remediateLastFailure: true
   upgrade:
     crds: CreateReplace
-    strategy:
-      name: RemediateOnFailure
-      retryInterval: 5m 
+    # strategy:
+    #   name: RemediateOnFailure
+    #   retryInterval: 5m 
     remediation:
       retries: 3
       remediateLastFailure: true
