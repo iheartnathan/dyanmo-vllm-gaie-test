@@ -6,6 +6,6 @@ metadata:
 spec:
   ref:
     tag: "2.1.2"
-  layerSelector:
-    mediaType: "application/vnd.cncf.helm.chart.content.v1.tar+gzip"
-    operation: copy
+  # layerSelector:
+  #   mediaType: "application/vnd.cncf.helm.chart.content.v1.tar+gzip"
+  #   operation: copy
