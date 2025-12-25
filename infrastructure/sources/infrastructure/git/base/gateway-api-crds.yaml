@@ -9,7 +9,7 @@ spec:
   url: https://github.com/kubernetes-sigs/gateway-api/
   ref:
     branch: main
-    commit: 477d172e6ac5eccb82b65781ddb8f924afec4170
+    commit: 8ed1be6633ecfbc63f554d2531b7a9519928af76
   ignore: |
     /*
     !/config/
