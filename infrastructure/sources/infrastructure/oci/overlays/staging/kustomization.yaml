@@ -3,11 +3,11 @@ kind: Kustomization
 resources:
   - ../../base
 patches:
-  - path: cert-manager-patch.yaml
-    target:
-      kind: OCIRepository
-      name: cert-manager
-      namespace: flux-system
+  # - path: cert-manager-patch.yaml
+  #   target:
+  #     kind: OCIRepository
+  #     name: cert-manager
+  #     namespace: flux-system
   # - path: external-dns-patch.yaml
   #   target:
   #     kind: OCIRepository
