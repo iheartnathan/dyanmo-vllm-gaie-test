@@ -14,5 +14,8 @@ spec:
             target:
               kind: Deployment
   values:
+      controller:
+        image:
+          tag: "v2.1.2"
       inferenceExtension:
         enabled: true
