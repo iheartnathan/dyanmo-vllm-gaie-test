@@ -4,18 +4,5 @@ metadata:
   name: kgateway
   namespace: flux-system
 spec:
-  postRenderers:
-    - kustomize:
-        patches:
-          - patch: |-
-              - op: replace
-                path: /metadata/labels/app.kubernetes.io~1version
-                value: 2.1.2
-            target:
-              kind: Deployment
-  values:
-      controller:
-        image:
-          tag: "v2.1.2"
       inferenceExtension:
         enabled: true
