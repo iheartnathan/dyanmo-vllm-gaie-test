@@ -4,5 +4,13 @@ metadata:
   name: kgateway
   namespace: flux-system
 spec:
+      controller:
+        image:
+          registry: "cr.kgateway.dev/kgateway-dev"
+          repository: "kgateway"
+          tag: "v2.1.2"
+      image:
+        registry: cr.kgateway.dev/kgateway-dev
+        tag: "v2.1.2"
       inferenceExtension:
         enabled: true

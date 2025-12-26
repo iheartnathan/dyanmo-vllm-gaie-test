@@ -6,8 +6,7 @@ metadata:
 spec:
   ref:
     # tag: "v2.1.2"
-    # digest: "sha256:86e6dc75ea16862125344fb75df8a45096a524d797eeb984e54dcbbc61c4905a"
-    digest: "sha256:0c2bb8ac869b1dc6b6e1346e614b91b9136e8394bc59c794fb30733cd0a46d42"
+    digest: "sha256:86e6dc75ea16862125344fb75df8a45096a524d797eeb984e54dcbbc61c4905a"
   layerSelector:
     mediaType: "application/vnd.cncf.helm.chart.content.v1.tar+gzip"
     operation: copy
