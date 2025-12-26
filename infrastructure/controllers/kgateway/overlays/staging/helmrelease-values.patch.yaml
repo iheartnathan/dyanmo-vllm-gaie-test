@@ -5,8 +5,5 @@ metadata:
   namespace: flux-system
 spec:
   values:
-      controller:
-        image:
-          tag: "v2.1.2"
       inferenceExtension:
         enabled: true

@@ -29,3 +29,12 @@ spec:
   driftDetection:
     mode: warn
   targetNamespace: kgateway-system
+  postRenderers:
+    - kustomize:
+        patches:
+          - patch: |-
+              - op: replace
+                path: /metadata/labels/app.kubernetes.io~1version
+                value: 2.1.2
+            target:
+              kind: Deployment
